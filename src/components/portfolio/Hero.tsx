@@ -43,8 +43,8 @@ export function Hero() {
   const typed = useTyping(ROLES);
 
   return (
-    <section id="top" className="relative pt-32 md:pt-40 pb-20 overflow-hidden">
-      <div className="mx-auto max-w-6xl px-6 grid lg:grid-cols-[1.1fr_1fr] gap-12 items-center">
+    <section id="top" className="relative pt-24 sm:pt-32 md:pt-40 pb-14 sm:pb-20 overflow-hidden">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 grid lg:grid-cols-[1.1fr_1fr] gap-8 sm:gap-12 items-center">
         <div>
           <motion.div
             initial={{ opacity: 0, y: 16 }}
@@ -60,7 +60,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.05 }}
-            className="mt-6 text-5xl md:text-7xl font-semibold leading-[1.05]"
+            className="mt-6 text-4xl sm:text-5xl md:text-7xl font-semibold leading-[1.05] break-words"
           >
             Hi, I'm <span className="gradient-text">{PROFILE.name}</span>
           </motion.h1>
@@ -69,7 +69,7 @@ export function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.15 }}
-            className="mt-5 font-mono text-lg md:text-xl text-cyan h-7"
+            className="mt-5 font-mono text-base sm:text-lg md:text-xl text-cyan h-7 truncate"
           >
             &gt; {typed}
             <span className="blink">▍</span>
@@ -150,7 +150,7 @@ export function Hero() {
                 ~/dev/basharat.ts
               </span>
             </div>
-            <pre className="font-mono text-sm md:text-[13px] leading-relaxed p-6 text-foreground overflow-x-auto">
+            <pre className="font-mono text-xs sm:text-sm md:text-[13px] leading-relaxed p-4 sm:p-6 text-foreground overflow-x-auto">
 {`const dev = {
   name: "Basharat Ali",
   role: "Full-Stack Engineer",
