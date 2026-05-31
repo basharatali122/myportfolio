@@ -17,7 +17,11 @@ export function About() {
             Currently at NaqviX, where I own full-stack features end-to-end —
             authentication, REST APIs, dashboards and the deploy pipeline.
             On the side I help freelance clients launch MVPs, automate
-            workflows and build RAG chatbots.
+            workflows and ship AI features — <span className="text-foreground">RAG
+            chatbots</span>, <span className="text-foreground">auto-reply
+            bots</span> for WhatsApp and Telegram, and{" "}
+            <span className="text-foreground">OpenAI / Gemini integrations</span>{" "}
+            wired into real products.
           </p>
           <p>
             When I'm not coding I'm reading database internals, tuning Vim, or
