@@ -22,7 +22,7 @@ export function Navbar() {
     >
       <nav
         aria-label="Primary"
-        className="mx-auto max-w-6xl px-6 h-16 flex items-center justify-between"
+        className="mx-auto max-w-6xl px-4 sm:px-6 h-16 flex items-center justify-between"
       >
         <a href="#top" className="font-mono text-sm font-semibold">
           <span className="text-neon">~/</span>
@@ -71,7 +71,7 @@ export function Navbar() {
             exit={{ height: 0, opacity: 0 }}
             className="md:hidden overflow-hidden glass border-t border-border"
           >
-            <ul className="px-6 py-4 space-y-3">
+            <ul className="px-4 sm:px-6 py-4 space-y-3">
               {NAV.map((n) => (
                 <li key={n.id}>
                   <a
