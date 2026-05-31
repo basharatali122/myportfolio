@@ -60,21 +60,30 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
-    title: "Sports Society Management",
+    title: "MountainDweller",
     description:
-      "Role-based platform with real-time chat, event scheduling and integrated payments for a campus sports society.",
-    stack: ["React", "Flask", "Redux Toolkit", "Socket.IO", "MongoDB"],
-    highlights: ["JWT role-based auth", "Real-time chat", "Stripe payments"],
-    repoUrl: "https://github.com/basharatali122",
+      "Product-selling and digital marketing platform with a referral & join-to-earn system. Members earn commissions by inviting others and reselling digital products.",
+    stack: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
+    highlights: ["Multi-level referral engine", "Earnings & payout dashboard", "Product catalog & checkout"],
+    liveUrl: "https://www.mountaindweller.online/",
     featured: true,
   },
   {
-    title: "E-Commerce Store",
+    title: "Alam Traders — Distribution Management System",
     description:
-      "Responsive storefront with persistent cart, search and filters, built on a custom REST API.",
-    stack: ["React", "Redux", "Context API", "REST"],
-    highlights: ["Cart persistence", "Search & filters", "Mobile-first UI"],
-    repoUrl: "https://github.com/basharatali122",
+      "End-to-end distribution platform managing inventory, orders, dealers and invoicing for a real wholesale business.",
+    stack: ["React", "Node.js", "Express", "MongoDB"],
+    highlights: ["Inventory & stock control", "Order & invoice workflow", "Dealer / customer management"],
+    liveUrl: "https://www.alamtraders.shop",
+    featured: true,
+  },
+  {
+    title: "RPS Kasur — School Management Website",
+    description:
+      "Public school website with admin tools for managing announcements, staff, classes and student information.",
+    stack: ["React", "Node.js", "Express", "MongoDB"],
+    highlights: ["Admin dashboard", "Announcements & notices", "Staff & student records"],
+    liveUrl: "https://rpskasur.site/",
   },
   {
     title: "Desktop Automation Platform",
@@ -83,6 +92,13 @@ export const PROJECTS: Project[] = [
     stack: ["Electron", "Node.js", "SQLite", "Firebase", "WebSocket"],
     highlights: ["Multi-process isolation", "License management", "50+ accounts/min"],
     repoUrl: "https://github.com/basharatali122",
+  },
+  {
+    title: "Web-Based Game Automation",
+    description:
+      "Browser-based automation suite for a live game — task scheduling, account rotation and live activity logs in a single web dashboard.",
+    stack: ["React", "Node.js", "Express", "WebSocket", "MongoDB"],
+    highlights: ["Multi-account scheduler", "Live activity stream", "Rule-based task engine"],
   },
 ];
 
