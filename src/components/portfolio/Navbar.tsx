@@ -45,6 +45,8 @@ export function Navbar() {
             <a
               href={PROFILE.resume}
               download
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-md border border-neon/40 bg-neon/10 px-3 py-1.5 text-sm font-medium text-neon hover-glow"
             >
               <Download className="h-4 w-4" /> Resume
@@ -85,6 +87,8 @@ export function Navbar() {
                 <a
                   href={PROFILE.resume}
                   download
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-md border border-neon/40 bg-neon/10 px-3 py-1.5 text-sm font-medium text-neon"
                 >
                   <Download className="h-4 w-4" /> Resume
