@@ -99,6 +99,8 @@ export function Hero() {
             <a
               href={PROFILE.resume}
               download
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-md border border-border bg-surface px-5 py-2.5 text-sm font-semibold text-foreground hover:border-neon transition-colors"
             >
               <Download className="h-4 w-4" /> Download résumé
