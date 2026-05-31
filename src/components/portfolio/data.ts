@@ -14,7 +14,7 @@ export const PROFILE = {
   email: "basharatali.work@gmail.com",
   github: "https://github.com/basharatali122",
   linkedin: "https://linkedin.com/in/basharat-ali",
-  whatsapp: "https://wa.me/923000000000", // replace with real number
+  whatsapp: "https://wa.me/923202295204",
   resume: "/Basharat_Ali_Resume.pdf",
   status: "Available for freelance & full-time",
 } as const;
