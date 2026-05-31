@@ -8,6 +8,8 @@ const ROLES = [
   "MERN Stack Developer",
   "Python / Flask Developer",
   "RAG Chatbot Builder",
+  "AI Integration Engineer",
+  "Automation & Chatbot Developer",
 ];
 
 function useTyping(words: string[], speed = 70, hold = 1400) {
@@ -152,8 +154,9 @@ export function Hero() {
   role: "Full-Stack Engineer",
   stack: {
     frontend: ["React", "Next.js", "TS"],
-    backend:  ["Node", "Express", "Flask"],
+    backend:  ["Node", "Express", "Python", "Flask", "FastAPI"],
     db:       ["MongoDB", "Postgres"],
+    ai:       ["RAG", "LangChain", "OpenAI", "Chatbots"],
   },
   shipping: true,
   caffeinated: true,
