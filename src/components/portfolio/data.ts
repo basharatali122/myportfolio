@@ -7,9 +7,9 @@ import {
 export const PROFILE = {
   name: "Basharat Ali",
   title: "Full-Stack Engineer",
-  subtitle: "MERN + Python / Flask",
+  subtitle: "MERN + Python / Flask + AI Automation",
   tagline:
-    "I build fast, reliable web apps and APIs — from real-time platforms to automation tools that ship.",
+    "I build fast, reliable web apps, Python backends and AI-powered automations — from RAG chatbots and auto-reply bots to real-time platforms that ship.",
   location: "Lahore, Pakistan",
   email: "basharatali.work@gmail.com",
   github: "https://github.com/basharatali122",
@@ -34,12 +34,17 @@ export const SKILLS = [
   {
     icon: Server,
     title: "Backend",
-    items: ["Node.js", "Express", "Python", "Flask", "REST APIs", "Socket.IO", "RAG Chatbots"],
+    items: ["Node.js", "Express", "Python", "Flask", "FastAPI", "REST APIs", "Socket.IO"],
   },
   {
     icon: Database,
     title: "Database",
     items: ["MongoDB", "PostgreSQL", "SQLite", "Firebase", "Supabase"],
+  },
+  {
+    icon: MessageCircle,
+    title: "AI / Automation",
+    items: ["RAG Chatbots", "LangChain", "OpenAI / Gemini APIs", "Auto-reply Bots", "WhatsApp / Telegram Bots", "Web Scraping", "Workflow Automation"],
   },
   {
     icon: Wrench,
@@ -137,20 +142,33 @@ export const SERVICES = [
   {
     title: "Full-Stack Web App",
     description:
-      "Production MERN or Flask app with auth, dashboards, API and deploy. Built to scale.",
+      "Production MERN, Python or Flask app with auth, dashboards, API and deploy. Built to scale.",
     features: ["Auth & role management", "Admin dashboard", "REST API", "CI / deploy"],
     featured: true,
   },
   {
     title: "API & Backend",
     description:
-      "Secure REST APIs with MongoDB or SQL, validation, JWT auth and rate limiting.",
+      "Secure REST APIs in Node or Python (Flask / FastAPI) with MongoDB or SQL, JWT auth and rate limiting.",
     features: ["REST endpoints", "JWT + validation", "Rate limiting", "Docs & tests"],
+  },
+  {
+    title: "AI Chatbots & RAG",
+    description:
+      "Custom RAG chatbots, AI assistants and auto-reply bots wired into your data, website, WhatsApp or Telegram.",
+    features: ["RAG over your docs", "LangChain / OpenAI / Gemini", "WhatsApp & Telegram bots", "Website chat widget"],
+    featured: true,
+  },
+  {
+    title: "AI Integrations",
+    description:
+      "Plug GPT-class models into existing apps — summarization, classification, content generation, smart search.",
+    features: ["OpenAI / Gemini APIs", "Embeddings & vector search", "Streaming responses", "Cost & rate controls"],
   },
   {
     title: "Real-time / Automation",
     description:
-      "Socket.IO real-time features, Electron desktop tools and Python automation scripts.",
+      "Socket.IO real-time features, Electron desktop tools, Python automation scripts and workflow bots.",
     features: ["Live chat / presence", "Electron desktop apps", "Scrapers & bots"],
   },
 ];
