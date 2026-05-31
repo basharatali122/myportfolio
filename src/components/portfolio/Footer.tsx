@@ -4,8 +4,8 @@ import { PROFILE } from "./data";
 export function Footer() {
   return (
     <footer className="border-t border-border/60 py-10">
-      <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 sm:flex-row">
-        <p className="font-mono text-xs text-muted-foreground">
+      <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 sm:px-6 sm:flex-row text-center sm:text-left">
+        <p className="font-mono text-[11px] sm:text-xs text-muted-foreground break-words">
           <span className="text-neon">$</span> echo "© {new Date().getFullYear()} {PROFILE.name} — built with React + TanStack Start"
         </p>
         <div className="flex items-center gap-4 text-muted-foreground">
